@@ -2,7 +2,7 @@ console.log("hello world");
 let a = 67;
 console.log(a);
 
-a = "harry";
+// a = "harry";
 console.log(a);
 
 const item = {
@@ -11,4 +11,8 @@ const item = {
   Section: "A",
 };
 
+let num = 89
+const b = "harry"
+
 console.log("Name: " + item.Name)
+console.log(num+a)
