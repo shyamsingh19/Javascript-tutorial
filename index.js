@@ -11,8 +11,9 @@ const item = {
   Section: "A",
 };
 
-let num = 89
-const b = "harry"
+let num = 89;
+const b = "harry";
 
-console.log("Name: " + item.Name)
-console.log(num+a)
+console.log("Name: " + item.Name);
+console.log(num + a);
+console.log(typeof (num + a));
