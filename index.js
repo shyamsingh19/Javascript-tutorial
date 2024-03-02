@@ -1,19 +1,24 @@
-console.log("hello world");
-let a = 67;
-console.log(a);
+// created a string and then added a no. 
+let s = "hello";
+let t = "20065130";
 
-// a = "harry";
-console.log(a);
+console.log(s +" " +t);
 
-const item = {
-  Name: "shyam",
-  Roll_no: "0130",
-  Section: "A",
-};
+console.log(typeof(s))
+const student={
+  name: "harry",
+  section: 1,
+  isprincipal: false
+}
 
-let num = 89;
-const b = "harry";
+student['friend'] = "shubham"; 
 
-console.log("Name: " + item.Name);
-console.log(num + a);
-console.log(typeof (num + a));
+let diction ={
+  help: "seeking help", 
+  helping: "being helped",
+  helpless: "lacking help",
+  runnning: "walking fastly"
+}
+
+console.log(diction.runnning)
+console.log(diction.helpless)
